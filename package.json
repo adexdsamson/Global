@@ -1,0 +1,17 @@
+{
+  "name": "node-sandbox",
+  "version": "1.0.0",
+  "description": "Simple Node Sandbox",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "ejs": "2.6.1",
+    "express": "latest",
+    "mongoose": "5.3.14"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  }
+}
